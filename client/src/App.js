@@ -50,7 +50,7 @@ function App() {
               />
               <Route 
                 path="/login" 
-                element={<Login />}
+                element={<Login />} 
               />
               <Route 
                 path="/signup" 
@@ -62,11 +62,11 @@ function App() {
               />
               <Route 
                 path="/products/:id" 
-                element={<Detail />}
+                element={<Detail />} 
               />
               <Route 
                 path="*" 
-                element={<NoMatch />}
+                element={<NoMatch />} 
               />
             </Routes>
           </StoreProvider>
